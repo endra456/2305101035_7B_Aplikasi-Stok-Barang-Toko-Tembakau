@@ -60,11 +60,13 @@ Direncanakan untuk mencatat pengurangan stok berdasarkan transaksi penjualan.
 8. Laporan Stok dan Penjualan
 Direncanakan untuk menampilkan informasi persediaan dan transaksi penjualan.
 
-## Struktur Folder
+
+## Struktur Folder Proyek
 
 Struktur folder utama proyek Android:
 
-'''TokoTembakau/
+```text
+TokoTembakau/
 │
 ├── app/
 │   ├── src/
@@ -92,7 +94,8 @@ Struktur folder utama proyek Android:
 ├── gradle/
 ├── README.md
 ├── build.gradle
-└── settings.gradle'''
+└── settings.gradle
+```
 
 ## Persyaratan Menjalankan Aplikasi
 
