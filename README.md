@@ -64,7 +64,7 @@ Direncanakan untuk menampilkan informasi persediaan dan transaksi penjualan.
 
 Struktur folder utama proyek Android:
 
-TokoTembakau/
+'''TokoTembakau/
 │
 ├── app/
 │   ├── src/
@@ -92,7 +92,7 @@ TokoTembakau/
 ├── gradle/
 ├── README.md
 ├── build.gradle
-└── settings.gradle
+└── settings.gradle'''
 
 ## Persyaratan Menjalankan Aplikasi
 
