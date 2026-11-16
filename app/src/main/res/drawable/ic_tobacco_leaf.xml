@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Daun kiri -->
+    <path
+        android:fillColor="#704020"
+        android:pathData="M58,65 C20,65 12,35 15,12 C42,15 62,34 58,65 Z"/>
+
+    <!-- Daun kanan -->
+    <path
+        android:fillColor="#A66B25"
+        android:pathData="M62,65 C62,32 82,10 108,8 C109,38 91,62 62,65 Z"/>
+
+    <!-- Daun bawah kiri -->
+    <path
+        android:fillColor="#9A642D"
+        android:pathData="M57,73 C25,68 10,83 8,105 C35,108 53,95 57,73 Z"/>
+
+    <!-- Daun bawah kanan -->
+    <path
+        android:fillColor="#C18A3D"
+        android:pathData="M63,73 C95,67 110,83 112,105 C85,108 67,95 63,73 Z"/>
+
+    <!-- Batang utama -->
+    <path
+        android:strokeColor="#5A351C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M60,110 L60,25"
+        android:fillColor="@android:color/transparent"/>
+
+</vector>

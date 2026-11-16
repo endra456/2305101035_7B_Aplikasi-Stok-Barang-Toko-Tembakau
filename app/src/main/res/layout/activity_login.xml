@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8ED"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_tobacco_leaf"
+            android:contentDescription="Logo Toko Tembakau"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="12dp"
+            android:scaleType="fitCenter"/>
+
+        <!-- Nama Aplikasi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isnu Tobacco"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#321B0C"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk untuk melanjutkan"
+            android:textSize="15sp"
+            android:textColor="#704522"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Form Login -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang!"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#321B0C"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Silakan login untuk mengelola stok barang."
+                android:textSize="14sp"
+                android:textColor="#704522"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Username -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="#321B0C"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Masukkan username"
+                android:inputType="text"
+                android:padding="14dp"
+                android:textSize="15sp"
+                android:backgroundTint="#A66B25"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="18dp"/>
+
+            <!-- Password -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#321B0C"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Masukkan password"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:textSize="15sp"
+                android:backgroundTint="#A66B25"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="28dp"/>
+
+            <!-- Tombol Login -->
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="LOGIN"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:backgroundTint="#704020"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© Isnu Tobacco"
+            android:textSize="12sp"
+            android:textColor="#704522"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
