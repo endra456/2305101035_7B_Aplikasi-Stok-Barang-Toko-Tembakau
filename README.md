@@ -4,12 +4,12 @@
 
 ## Identitas Mahasiswa
 
-- Nama: [Nama Lengkap]
-- NIM: [NIM]
-- Kelas: [Kelas]
-- Program Studi: [Program Studi]
+- Nama: Bayu Endra Prasetyo
+- NIM: 2305101035
+- Kelas: 7B
+- Program Studi: Teknik Informatika
 - Mata Kuliah: Pemrograman Mobile
-- Tahun Akademik: [Tahun Akademik]
+- Tahun Akademik: 2026-2027
 
 ## Deskripsi
 
